@@ -1,0 +1,38 @@
+<input type="text">
+<body>
+    
+    <!-- <a href="#"oncdblick="nama_lengkap()">Klik untuk melihat nama kamu</a> -->
+
+    <h2>Object</h2>
+    <p id="tampil">
+
+    </p>
+
+    <h2 id="karyawan"></h2>
+
+    <script>
+        // OBJECT
+        let biodata = {
+            nama_depan: "Rajif",
+            nama_belakang: "Mahendra"
+        }
+
+        document.getElementById("tampil").innerHTML = biodata.nama_depan + " " + biodata.nama_belakang
+
+
+        // ARRAY
+        let karyawan = ["Adi", "Bayu", "Aqbar", "Rajif", "Made", "Yulia", "Wahyu", "Emi"]
+        ///console.log(karyawan)
+        for(let i = 0; i < karyawan.length; i++){
+            console.log(i)
+        }
+
+        // let nama_lengkap () => {
+        //      alert("Rajif Mahendra");
+        // }
+        
+
+
+    </script>
+</body>
+</html>
